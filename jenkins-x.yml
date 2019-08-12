@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: dairyforge-production-remote
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: dairyforge-production-remote
+  - name: CHART_REPOSITORY
+    value: https://chartmuseum.jx.dspl-dmk.de
+  pipelines: {}
