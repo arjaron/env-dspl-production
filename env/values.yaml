@@ -13,7 +13,7 @@ expose:
   - --v
   - 4
   config:
-    domain: dspl-dmk.de
+    domain: 35.198.160.37.nip.io
     exposer: Ingress
     http: "true"
 jenkins:
